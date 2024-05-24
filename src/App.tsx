@@ -8,6 +8,7 @@ function App() {
   const ops=['/','*','+','-','.','%','**'];
   const updateCalc = (value:string) => {
     if (
+      //hello
       ops.includes(value) && calc ===''||
       ops.includes(value) && ops.includes(calc.slice(-1))
     ){
