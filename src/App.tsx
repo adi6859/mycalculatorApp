@@ -9,6 +9,7 @@ function App() {
   const updateCalc = (value:string) => {
     if (
       //hello
+      //hello1
       ops.includes(value) && calc ===''||
       ops.includes(value) && ops.includes(calc.slice(-1))
     ){
